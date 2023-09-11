@@ -1,0 +1,103 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+
+.title-box {
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    bottom: 40px;
+    left: 25px;
+    font-family: YakuHanJPs, "open sans", "Open Sans", LinotypeUnivers, Univers, "Helvetica Neue", Helvetica, Roboto, "Noto Sans", "Droid Sans", Verdana, 游ゴシック体, YuGothic, "游ゴシック Medium", "Yu Gothic Medium", 游ゴシック, "Yu Gothic", "Noto Sans CJK JP", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, "ＭＳ Ｐゴシック", sans-serif;
+}
+
+.logo .logo1 {
+    color:lightgray;
+    font-size: 1em;
+}
+
+.logo .logo2 {
+    color: #22b5bb;    
+    font-weight: 700;
+    font-size: 3em;
+    line-height: 0.8;
+}
+
+.p-title {
+    position: absolute;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    padding: 0 5px 0 5px;
+    color: red;
+    background-color: rgba(240, 240, 240, 0.5);
+}
+
+.layout {
+    margin: auto;
+    width: 90%;
+    display: block;
+}
+.play-btn {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-size: 20px;
+}
+
+.fotorama__wrap  {
+    margin: auto;
+}
+
+.fotorama__caption {
+    bottom: auto;
+    color:red;
+    font-size: 20px;
+}
+
+.popup {
+    width: 60%;
+    margin: auto;
+    position: relative;
+    background: #fff;
+    padding: 5px 5px 0px 5px;
+}
+
+.mfp-bg{
+    opacity: 0;
+    transition: opacity 1s;
+}
+.mfp-bg.mfp-ready{
+opacity: 0.8;
+}
+
+.mfp-close{
+    font-size: 50px;
+    color: white !important;
+}
+
+.mfp-bg.mfp-removing{
+opacity: 0;
+}
+
+.mfp-wrap .mfp-content{
+opacity: 0;
+transition: opacity 1s;
+}
+
+.mfp-wrap.mfp-ready .mfp-content {
+opacity: 1;
+}
+
+.mfp-wrap.mfp-removing .mfp-content {
+opacity: 0;
+}
+  
