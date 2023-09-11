@@ -32,7 +32,7 @@ $(".play-btn").on('click',function(){
   let w = ph.children("img").css("width");
   ph.children("img").remove();
   let no = ph.data("no");  // 保存したnoを取得
-  let vsrc = `movies/${no}.MOV`;
+  let vsrc = `movies/${no}.mp4`;
   // ph.append(`<video autoplay controls width='${w}' src='${vsrc}'></video>`);
   ph.append(`<video autoplay width='${w}' src='${vsrc}'></video>`);
 });
