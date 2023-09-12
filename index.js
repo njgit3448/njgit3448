@@ -59,6 +59,8 @@ $(".play-btn").on('click',function(){
 });
 
 $(".mode li").click(function(){
+  let ostTop = $("#container").offset().top;
+  $(window).scrollTop(ostTop);
   change_mode($(this).text());
 });
 
@@ -67,6 +69,7 @@ function change_mode(new_mode){
     console.log($(".mode li:contains('Map')" ));
     $(".mode li:contains('Map')" ).css( "color", "red" );
     $(".mode li:contains('Gallery')" ).css( "color", "grey" );
+    fotorama.stopAutoplay()
     $(".fotorama").hide();
     $(".layout").show();
   } else {
